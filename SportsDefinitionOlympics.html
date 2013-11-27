@@ -94,7 +94,7 @@
 
         });
         $(document).ready(function () {
-            $("#SportsGrid tbody tr").live('click', function () {
+            $("#SportsGrid tbody tr").on('click', function () {
                 var firstCellText = $("td:eq(0)", this).text();
                 var SecondCellText = $("td:eq(1)", this).text();
                 window.location.href = 'ViewSubSport.html?SportName=' + SecondCellText + " " + firstCellText;

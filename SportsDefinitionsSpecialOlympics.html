@@ -95,7 +95,7 @@
             });
         });
         $(document).ready(function () {
-            $("#SpecialOlympicsGrid tbody tr").live('click', function () {
+            $("#SpecialOlympicsGrid tbody tr").on('click', function () {
                 var firstCellText = $("td:eq(0)", this).text();
                 var secondCellText = $("td:eq(1)", this).text();
                 var Link = firstCellText + "-" + secondCellText;

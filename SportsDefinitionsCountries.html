@@ -54,7 +54,7 @@
                 return false;
             }
 
-            $("#SportsGrid tbody tr").live('click', function () {
+            $("#SportsGrid tbody tr").on('click', function () {
                 var firstCellText = $("td:eq(0)", this).text();
                 window.location.href = 'ViewSubSport.html?SportName=' + firstCellText;
             });
