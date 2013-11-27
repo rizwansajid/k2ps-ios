@@ -95,7 +95,7 @@
             });
         });
         $(document).ready(function () {
-            $("#SportsGenderGrid tbody tr").on('click', function () {
+            $("#SportsGenderGrid tbody tr").live('click', function () {
                 var firstCellText = $("td:eq(0)", this).text();
                 var thirdCellText = $("td:eq(2)", this).text();
                 var Link = firstCellText + thirdCellText;

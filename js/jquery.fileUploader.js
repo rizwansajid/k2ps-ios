@@ -609,7 +609,7 @@
 		/*
 		* Individual Upload
 		*/
-		$('.upload', pxUploadForm).on ('click', function(){
+		$('.upload', pxUploadForm).live('click', function(){
 			
 			$form = $(this).parents('.upload-data').children('form');
 			if ($form.length > 0) {
@@ -634,7 +634,7 @@
 		});
 		
 		//Button Clear Event
-		$(config.buttonClear, pxButton).on ('click', function(){
+		$(config.buttonClear, pxButton).live('click', function(){
 			$(pxUploadForm).fadeOut('slow',function(){
 				$(this).empty();
 				$(this).show();
@@ -651,7 +651,7 @@
 			});
 		});
 		
-		$('.delete', pxUploadForm).on ('click', function(){
+		$('.delete', pxUploadForm).live('click', function(){
 			
 			limit++;
 			
@@ -673,7 +673,7 @@
 		/*
 		*	Cancel individual upload
 		*/
-		$('.cancel', pxUploadForm).on ('click', function() {
+		$('.cancel', pxUploadForm).live('click', function() {
 			if (jqxhr) {
 				jqxhr.abort();
 			}
@@ -688,7 +688,7 @@
 		/*
 		*	Cancel all uploads
 		*/
-		$('#px-cancel', pxButton).on ('click', function(){
+		$('#px-cancel', pxButton).live('click', function(){
 			stopUpload = true;
 			if (jqxhr) {
 				jqxhr.abort();
@@ -703,7 +703,7 @@
 		});
 		
 		/* Icons hover */
-		$(".px-widget .actions li").on ("mouseover mouseout", function(event) {
+		$(".px-widget .actions li").live("mouseover mouseout", function(event) {
 			if ( event.type == "mouseover" ) {
 				$(this).addClass('ui-state-hover');
 			} else {
