@@ -140,21 +140,21 @@ em {
 .logoMain a {
 	background:url(../images/logo2.png) no-repeat left top;
 	height: 91px; width: 227px; overflow: hidden; display:block; }
-#outerBg p{ color:#fff; text-align:center;}
+#outerBg p{ color:#000000; text-align:center;}
 .guest {margin:20px auto 5px auto; width:172px;}
 .guest a { background:url(../images/guest.png) no-repeat left top; font-size: 12px; list-style-type:none; text-decoration:none; width:172px;  display:block; height:30px;}
-.login {margin:0 auto; text-align:center;}
+.login {margin:0 auto; text-align:center;padding-top: 5px;}
 a#login {background:url(../images/login.png) no-repeat left top; font-size: 12px; list-style-type:none; text-decoration:none; width:112px; height:30px; margin:0 20px 0 0; display:inline-block;}
 a#regg {background:url(../images/register.png) no-repeat left top; font-size: 12px; list-style-type:none; text-decoration:none; width:112px; height:30px; display:inline-block;}
 
 /* three Tabsasdfasdf */
 
-#centerTabs { margin:auto; text-align:center }
+#centerTabs { margin:5px auto; text-align:center }
 a#thire1 {background:url(../images/welcomeBtn.png) no-repeat left top; display:inline-block; width:116px; height:34px; }
 a#thire2 {background:url(../images/sports.png) no-repeat left top; display:inline-block; width:116px; height:34px; }
 a#thire3 {background:url(../images/Multi.png) no-repeat left top; display:inline-block; width:116px; height:34px; }
 a#thire4 {background:url(../images/discoverBtn.png) no-repeat left top; display:inline-block; width:116px; height:34px; }
-a#thire5 {background:url(../images/mediaBtn.png) no-repeat left top; display:inline-block; width:116px; height:34px; }
+a#thire5 {background:url(../images/aboutus.png) no-repeat left top; display:inline-block; width:116px; height:34px; }
 
 
 
@@ -446,7 +446,7 @@ input[type="submit"], input[type="button"], .btn {border:1px solid #00531b; colo
 .contentRight { width:13%; background:#800000; border:1px solid #000000; }
 .contentRight  a img {display:block;}
 
-.para{ color: #000000; font-size: 11px; line-height: 16px; margin: 10px 0 0; padding: 10px 5px;	
+.para{ border: 1px solid #0033FF; color: #000000; font-size: 11px; line-height: 16px; margin: 10px 0 0; padding: 10px 5px;	
 }
 
 /* container ends */
